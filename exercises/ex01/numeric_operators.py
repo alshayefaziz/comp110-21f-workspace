@@ -3,7 +3,7 @@
 left_handed_side: int = int(input("What would you like your Left-handed side value to be? "))
 right_handed_side: int = int(input("Now, the Right-handed side value? "))
 power: int = left_handed_side ** right_handed_side
-division: int = left_handed_side / right_handed_side
+division: float = left_handed_side / right_handed_side
 int_division: int = left_handed_side // right_handed_side
 remainder: int = left_handed_side % right_handed_side
 print("Left-hand side: " + str(left_handed_side))
