@@ -18,7 +18,7 @@ def all(sample: list[int], given: int) -> bool:
 
 
 def is_equal(first_set: list[int], second_set: list[int]) -> bool:
-    """A fucntion that checks if all the itmes in two sets are equivalent to one another."""
+    """A function that checks if all the itmes in two sets are equivalent to one another."""
     i: int = 0
     if len(first_set) != len(second_set):
         return False
