@@ -1,8 +1,7 @@
-for (var  = 1;  1<= 100; 1++)   {
-var output = "";
-if (i % 3 ==0):
-    print("Fuck")
-if (i % 5 ==0) output +="cuck"
+table: dict[str, str] = {}
 
-console.log(output)
- 
+table["Isaiah"] += "ABC"
+table["Isaiah"] += "abc"
+table["Aziz"] = "abc"
+
+print(table)
