@@ -1,7 +1,8 @@
-table: dict[str, str] = {}
+num: float = 4
+numb: float = 3
 
-table["Isaiah"] += "ABC"
-table["Isaiah"] += "abc"
-table["Aziz"] = "abc"
-
-print(table)
+number: float = (numb / num) * 100
+print(
+    f"{number}"
+    )
+print(number)
